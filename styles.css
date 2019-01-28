@@ -1,0 +1,97 @@
+/*date*/
+header {
+  position: absolute;
+  right: 10px;
+  color: white;
+}
+
+/*link styles*/
+li {
+  display: inline;
+  position:relative;
+  left: 10px;
+
+}
+
+li {
+  border-right: 10px dotted white;
+}
+
+li {
+  color: white;
+}
+
+/*color change and header styles*/
+@keyframes example {
+  from {
+    background-color: white;
+  }
+
+  to {
+    background-color: blue;
+  }
+}
+
+h1 {
+  animation-name: example;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  text-align: center
+}
+
+/*style for name and profession*/
+h2 {
+  color: white;
+  position: relative;
+  text-align: center;
+  
+}
+
+h3 {
+  color: white;
+  position: relative;
+  text-align: center;
+  
+}
+
+h4 {
+  color: white;
+}
+
+/*important for images*/
+img,
+embed,
+object,
+video {
+  max-width: 100%;
+}
+
+/*image of me*/
+div {
+ 
+  width: 100px;
+  -webkit-transition: width 2s, -webkit-transform 2s;
+  transition: width 2s, transform 2;
+}
+div:hover {
+  width: 300px;
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+img {
+  border-style: solid;
+  border-radius: 50%;
+}
+
+p {
+  color:white;
+  text-align: center;
+  font-style: italic;
+}
+
+
+
+
+
+
